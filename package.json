@@ -1,0 +1,14 @@
+{
+	"name": "nether",
+	"version": "0.0.1",
+	"description": "A simple packet analyzer written in node.js",
+	"author": {
+		"name": "Jason Larsen",
+		"email": "jason.larsen@gmail.com"
+	},
+	"main": "./app.js",
+	"dependencies": {
+		"pcap": ">= 0.2.8"
+	},
+	"engine": "node 0.4.7"
+}
