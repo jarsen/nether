@@ -13,7 +13,7 @@ pcap_session.on('packet', function (raw_packet) {
 	io.sockets.emit('packet', packet);
 });
 
-function handler (req, res) {
+function handler(req, res) {
 	fs.readFile(__dirname + '/index.html',
 	function (err, data) {
 		if (err) {
